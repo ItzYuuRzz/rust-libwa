@@ -30,7 +30,7 @@ fn send_kopolot_request(mut cx: FunctionContext) -> JsResult<JsString> {
 fn generate_content(mut cx: FunctionContext) -> JsResult<JsString> {
     let url = format!(
         "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-exp-0801:generateContent?key={}",
-        "AIzaSyCJ42EvIbSONRh2nM-txNWPX7jfcJ-RoHU"
+        "apikey here"
     );
 
     let body = json!({
