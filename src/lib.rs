@@ -10,7 +10,7 @@ fn send_kopolot_request(mut cx: FunctionContext) -> JsResult<JsString> {
 
     let client = Client::new();
     let response = client
-        .post("http://0.0.0.0:1234/chat")
+        .post("http://coding.reomc.my.id:1234/chat")
         .header("Content-Type", "application/json")
         .body(body.to_string())
         .send()
